@@ -45,8 +45,38 @@ describe 'roman_numeral' do
     expect(roman_numeral(9)).to eq 'IX'
   end
 end
-describe 'roman_numeral' do 
+describe 'roman_numeral' do
   it 'return "X" when 10 is passed' do
     expect(roman_numeral(10)).to eq 'X'
+  end
+end
+describe 'roman_numeral' do
+  it 'return "XI" when 11 is passed' do
+    expect(roman_numeral(11)).to eq 'XI'
+  end
+end
+describe 'roman_numeral' do
+  it 'return "XIX" when 19 is passed' do
+    expect(roman_numeral(19)).to eq 'XIX'
+  end
+end
+describe 'roman_numeral' do
+  it 'return "XLIX" when 49 is passed' do
+    expect(roman_numeral(49)).to eq 'XLIX'
+  end
+end
+describe 'roman_numeral' do
+  it 'return "XXV" when 25 is passed' do
+    expect(roman_numeral(25)).to eq 'XXV'
+  end
+end
+describe 'roman_numeral' do
+  it 'return "XXX" when 30 is passed' do
+    expect(roman_numeral(30)).to eq 'XXX'
+  end
+end
+describe 'roman_numeral' do
+  it 'return "LXXXIX" when 89 is passed' do
+    expect(roman_numeral(89)).to eq 'LXXXIX'
   end
 end
